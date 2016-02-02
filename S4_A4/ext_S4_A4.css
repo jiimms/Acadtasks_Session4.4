@@ -1,0 +1,37 @@
+body {
+	width:100%;
+}
+div {
+	width:25%;
+	height: 200px;
+	float:left;
+	margin: 50px 20px;
+}
+
+.linear {
+	background: -webkit-linear-gradient(left, blue, green, orange);
+	background: -o-linear-gradient(to left, blue, green, orange);
+	background: -moz-linear-gradient(left, blue, green, orange);
+	background: linear-gradient(to right, blue, green, orange);
+}
+
+
+
+.radialc {
+	background: -webkit-radial-gradient(circle, blue, green, white, orange);
+	background: -o-radial-gradient(circle, blue, green, white, orange);
+	background: -moz-radial-gradient(circle, blue, green, white, orange);
+	background: radial-gradient(circle, blue, green, white, orange);
+}
+
+.radiale{
+	background: -webkit-radial-gradient(blue, green, orange, red);
+	background: -moz-radial-gradient(blue, green, orange, red);
+	background: -o-radial-gradient(blue, green, orange, red);
+	background: radial-gradient(blue, green, orange, red);
+}
+
+.eoa {
+	
+	clear: left;
+}
